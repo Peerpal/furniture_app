@@ -13,6 +13,7 @@ class FurnitureApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: _appTheme,
+      debugShowCheckedModeBanner: false,
       home: HomeScreen(),
     );
   }
@@ -26,7 +27,7 @@ class FurnitureApp extends StatelessWidget {
     fontFamily: 'montserrat',
     textTheme: TextTheme(
       headline1: TextStyle(
-          fontSize: 28,
+          fontSize: 24,
           fontFamily: 'montserrat-medium',
           color: Colors.grey.shade800,
           fontWeight: FontWeight.w700,
@@ -44,8 +45,8 @@ class FurnitureApp extends StatelessWidget {
         color: HexColor("191B24"),
       ),
       headline4: TextStyle(
-        fontSize: 13.0,
-        color: HexColor("191B24"),
+        fontSize: 14.0,
+        color: Colors.grey.shade500,
       ),
       headline5: TextStyle(
         fontSize: 14.0,
