@@ -39,6 +39,7 @@ class FurnitureApp extends StatelessWidget {
       bodyText2: TextStyle(
         fontSize: 14.0,
         color: HexColor("191B24"),
+        fontWeight: FontWeight.bold
       ),
       headline2: TextStyle(
         fontSize: 15.0,
