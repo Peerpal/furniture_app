@@ -33,6 +33,8 @@ dependencies:
   line_awesome_icons: ^1.0.4+2
   carousel_slider: ^2.2.1
   camera: ^0.5.8+2
+  # path_provider: ^1.6.11
+  # path: ^1.7.0
 
 dev_dependencies:
   flutter_test:

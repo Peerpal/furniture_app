@@ -11,7 +11,7 @@ class FurnitureApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Furniture Store',
       theme: _appTheme,
       debugShowCheckedModeBanner: false,
       home: HomeScreen(),
